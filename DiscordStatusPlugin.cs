@@ -3,10 +3,10 @@ using System;
 using Discord;
 using System.Threading;
 
-[assembly: MelonInfo(typeof(MelonLoaderDiscordStatus.DiscordStatusPlugin), "Discord Status", "1.0.0", "SlidyDev")]
+[assembly: MelonInfo(typeof(DiscordStatus.DiscordStatusPlugin), "Discord Status", "1.0.0", "SlidyDev")]
 [assembly: MelonColor(ConsoleColor.DarkCyan)]
 
-namespace MelonLoaderDiscordStatus
+namespace DiscordStatus
 {
     public class DiscordStatusPlugin : MelonPlugin
     {

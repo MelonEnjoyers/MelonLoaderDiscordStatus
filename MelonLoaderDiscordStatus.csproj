@@ -7,8 +7,8 @@
     <ProjectGuid>{28766948-6DA4-437C-9CE8-F2E73D452D41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MelonLoaderDiscordStatus</RootNamespace>
-    <AssemblyName>MelonLoaderDiscordStatus</AssemblyName>
+    <RootNamespace>DiscordStatus</RootNamespace>
+    <AssemblyName>DiscordStatusPlugin</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
