@@ -10,8 +10,8 @@ namespace DiscordStatus
     {
         public static bool Loaded { get; private set; }
 
-        public const string LibPath86 = "MelonLoaderDiscordStatus.Dependencies.x86.discord_game_sdk.dll";
-        public const string LibPath64 = "MelonLoaderDiscordStatus.Dependencies.x86_64.discord_game_sdk64.dll";
+        public const string LibPath86 = "DiscordStatus.Dependencies.x86.discord_game_sdk.dll";
+        public const string LibPath64 = "DiscordStatus.Dependencies.x86_64.discord_game_sdk64.dll";
         public const string LibDestinationPath = "UserData/Discord Status/discord_game_sdk.dll";
 
         public static void LoadLibrary()
