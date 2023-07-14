@@ -1647,8 +1647,10 @@ namespace Discord
             [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
             internal delegate void UpdateActivityCallback(IntPtr ptr, Result result);
 
+            private readonly static FFIMethods.UpdateActivityCallback updateActivityCallback = new FFIMethods.UpdateActivityCallback(UpdateActivityCallbackImpl);
+
             [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-            internal delegate void UpdateActivityMethod(IntPtr methodsPtr, ref Activity activity, IntPtr callbackData, UpdateActivityCallback callback);
+            internal delegate void UpdateActivityMethod(IntPtr methodsPtr, ref Activity activity, IntPtr callbackData, updateActivityCallback callback);
 
             [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
             internal delegate void ClearActivityCallback(IntPtr ptr, Result result);
